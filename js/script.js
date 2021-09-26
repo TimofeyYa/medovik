@@ -39,4 +39,27 @@ window.addEventListener('DOMContentLoaded', ()=>{
     selectScroll(goPart, part);
     selectScroll(goContacts, contacts);
 
+
+    // Работа с мобильной навигацией
+
+    const header__nav = document.querySelector('.header__nav'),
+          headerExit = document.querySelector('.header__nav-exit svg'),
+          headerBtn = document.querySelector('.header__mobmenu svg'),
+          header__navUl = document.querySelector('.header__nav ul'),
+          header__navLogo = document.querySelector('.header__nav-logo');
+
+    headerBtn.addEventListener('click', ()=>{
+        header__nav.style.left = '0';
+        header__navUl.style.opacity = '1';
+        setTimeout(()=>{
+            header__navLogo.style.opacity = '1';
+        }, 610)
+        
+    })
+    headerExit.addEventListener('click', ()=>{
+        header__nav.style.left = '100%';
+        header__navUl.style.opacity = '0';
+        header__navLogo.style.opacity = '0';
+    })
+
 })

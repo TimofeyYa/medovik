@@ -136,6 +136,8 @@ h1{
     background-size: cover;
     background-position: center top;
     padding-top: 130px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .firstscreen__content{
     max-width: 1840px;
@@ -696,4 +698,40 @@ h1{
 }
 .price__content{
     padding-top: 50px;
+}
+
+
+/* other */
+.header__mobmenu svg{
+    height: 30px;
+    width: 30px
+}
+.header__mobmenu{
+    padding-top: 10px;
+    margin-left: 10px;
+    display: none;
+}
+.header__nav-exit svg{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top:40px;
+    right: 20px;
+    fill: var(--orange-color);
+    cursor: pointer;
+    display: none;
+}
+.header__nav-logo{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%,0);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+.header__nav-logo .header__phone{
+    padding: 0;
+    margin-top: 15px;
 }

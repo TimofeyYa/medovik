@@ -1,3 +1,364 @@
-@media screen and (max-width: 2000px){
+@media screen and (max-width: 1670px){
+    .prod__bg{
+        right: -40px;
+    }
+}
+@media screen and (max-width: 1550px){
+    .prod__bg{
+        right: 10px;
+        top: -150px;
+    }
+    .firstscreen__medMed{
+        right: 90px;
+
+    }
+    .firstscreen__medList{
+        right: -93px;
+    }
+    .firstscreen__medMini{
+        right: 430px;
+        
+    }
+}
+@media screen and (max-width: 1320px){
+    .firstscreen__medMed{
+        right: -10px;
+        
+
+    }
+    .firstscreen__medList{
+        right: -193px;
+        
+    }
+    .firstscreen__medMini{
+        right: 330px;
+        
+        
+    }
+    h1{
+        font-size: 65px;
+    }
+    .firstscreen__info{
+        max-width: 480px;
+    }
+    .about__pic img{
+        height: 320px;
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .firstscreen__medMed{
+        right: -50px;
+        
+
+    }
+    .firstscreen__medList{
+        right: -233px;
+        
+    }
+    .firstscreen__medMini{
+        right: 280px;
+        
+        
+    }
+    .header__phone{
+        padding-left: 15px;
+    }
+    .header__nav-item:not(:last-child) {
+        margin-right: 23px;
+    }
+    h1{
+        font-size: 61px;
+    }
+    .firstscreen__info{
+        max-width: 450px;
+    }
+}
+@media screen and (max-width: 1080px){
+    .header__mobmenu{
+        display: block;
+    }
+    .perks .container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .header__nav{
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top:0;
+        left: 100%;
+        right: 0;
+        bottom: 0;
+        background:rgba(243, 249, 255,0.95) ;
+        overflow: hidden;
+        transition: 0.6s;
+    }
+    .header__logo img{
+        height: 79px;
+    }
+    .header__nav ul{
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        width: 150px;
+        opacity: 0;
+        transition: 0.25s;
+    }
+    .header__nav-item:not(:last-child) {
+        margin-right: 0px;
+        margin-bottom: 12px;
+        
+    }
+    .header__nav-item{
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .header__nav-exit svg{
+        display: block;
+    }
+    .header__nav-logo{
+        display: flex;
+        transition: 0.2s;
+        opacity: 0;
+    }
+    .firstscreen__medMed{
+        right: -30px;
+        width: 550px;
+        bottom: 10px;
+    }
+    .firstscreen__medList{
+        right: -53px;
+        width: 400px;
+        bottom: 10px;
+        
+    }
+    .firstscreen__medMini{
+        right: 280px;
+        width: 180px;
+        
+    }
+    .firstscreen__content{
+        height: 700px;
+    }
+    .firstscreen__main{
+        padding-top: 140px;
+    }
+    .firstscreen{
+        height: min-content;
+        padding-bottom: 100px;
+    }
+    .about__pic img{
+        height: 300px;
+    }
     
+}
+@media screen and (max-width: 1000px){
+    .firstscreen__med{
+        opacity: 0.2;
+    }
+    .firstscreen__main{
+        position: relative;
+        z-index: 5;
+    }
+
+
+    .firstscreen__main{
+        max-width:  unset;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .firstscreen__info {
+        max-width: 550px;
+        width: 100%;
+    }
+    .about__pic img{
+        height: 270px;
+    }
+}
+@media screen and (max-width: 950px){
+    .about .container{
+        flex-direction: column;
+    }
+    .about__pic img{
+        height: unset;
+        margin: 0;
+        width: 100%;
+    }
+    .about__pic{
+        padding-top: 60px;
+    }
+    .about__txt{
+        max-width: 1000px;
+    }
+}
+@media screen and (max-width: 800px){
+    h1 {
+        font-size: 54px;
+        line-height: 60px;
+    }
+    .firstscreen__med{
+        opacity: 0.15;
+    }
+    .firstscreen__blockTxt{
+        font-size: 17px;
+    
+    }
+    .perks__desc{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .perks__title h3{
+        font-size: 17px;
+    }
+    .perks .container{
+        grid-row-gap: 60px;
+    }
+}
+@media screen and (max-width: 720px){
+    .perks .container {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .perks__title {
+        margin-top: 23px;
+        height: min-content;
+        padding-bottom: 8px;
+    }
+}
+@media screen and (max-width: 580px){
+    h1 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .firstscreen__blockTxt {
+        font-size: 18px;
+    }
+    .container{
+        padding: 0 15px;
+    }
+    .header__phone{
+        display: none;
+    }
+    .header__logo img{
+        height: 69px;
+    }
+    .firstscreen__content {
+        height: 600px;
+    }
+    .firstscreen__main {
+        padding-top: 90px;
+    }
+    .about__pic{
+        padding-top: 40px;
+    }
+    .about__desc{
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+@media screen and (max-width: 520px){
+    .firstscreen__info{
+        display: none;
+    }
+    .firstscreen__main {
+        padding-top: 50px;
+    }
+    .firstscreen__content{
+        height: 860px;
+    }
+    .firstscreen__med{
+        opacity: 0.8;
+    }
+    .firstscreen{
+        padding-top: 110px;
+    }
+    .firstscreen__medMed{
+        right: -40px;
+        width: 480px;
+        bottom: 10px;
+    }
+    .firstscreen__medList{
+        right: -53px;
+        width: 400px;
+        bottom: 10px;
+        
+    }
+    .firstscreen__medMini{
+        right: 180px;
+        width: 180px;
+        top: 330px
+    }
+    h1 {
+        font-size: 40px;
+    }
+    .firstscreen__button {
+        padding-top: 35px;
+    }
+}
+@media screen and (max-width: 440px){
+    .firstscreen__medMed{
+        right: -40px;
+        width: 400px;
+        bottom: 10px;
+    }
+    .firstscreen__medList{
+        right: -53px;
+        width: 320px;
+        bottom: 10px;
+        
+    }
+    .firstscreen__medMini{
+        right: 180px;
+        width: 110px;
+        top: 330px
+    }
+    .firstscreen__content {
+        height: 800px;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    .firstscreen__button .main__button {
+        padding: 22px 70px;
+       
+    }
+  
+}
+@media screen and (max-width: 380px){
+    h1 {
+        font-size: 27px;
+        line-height: 35px;
+    }
+    .firstscreen__button .main__button {
+        padding: 22px 40px;
+       
+    }
+    .firstscreen__content{
+        height: 580px;
+    }
+    .firstscreen__medMed{
+        right: -40px;
+        width: 320px;
+        bottom: 10px;
+    }
+    .firstscreen__medList{
+        right: -53px;
+        width: 240px;
+        bottom: 10px;
+        
+    }
+    .firstscreen__medMini{
+        right: 180px;
+        width: 100px;
+        top: 230px
+    }
+    .about__desc{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .firstscreen__button {
+        padding-top: 25px;
+    }
 }
