@@ -386,8 +386,10 @@ h1{
 
 
 /* partners */
+
 .partners{
     padding-top: 161px;
+    clear: both;
 }
 .partners h2{
     margin-left: 45px;
@@ -414,6 +416,7 @@ h1{
     padding-top: 118px;
     position: relative;
     z-index: 3;
+    clear: both;
 }
 .diplom__block{
     display: inline-block;
@@ -520,7 +523,8 @@ h1{
     max-width: 490px;
 }
 .contacts__block:last-child{
-    max-width: 590px;
+    max-width: 610px;
+    padding-left: 20px;
 }
 .contacts__block:last-child h3{
     margin-bottom: 7px;
@@ -657,6 +661,7 @@ h1{
     align-items: center;
     justify-content: space-between;
     padding: 0 32px 0 49px;
+    position: relative;
 }
 .price__topTxt h3{
     font-size: 20px;
@@ -671,6 +676,8 @@ h1{
 .price__topForm .main__button{
     padding: 18px 45px;
     border-radius: 40px;
+    position: relative;
+    z-index: 2;
 }
 .price__topForm input{
     background: #FFFFFF;
@@ -685,6 +692,9 @@ h1{
     line-height: 24px;
     color: #927777;
     padding-right: 80px;
+    transform: translate(0,2px);
+    position: relative;
+    z-index: 1;
 }
 .price__content{
     display: flex;
@@ -734,4 +744,29 @@ h1{
 .header__nav-logo .header__phone{
     padding: 0;
     margin-top: 15px;
+}
+.diplom__wrap{
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+.contacts__wrap .container{
+    display: flex;
+    justify-content: center;
+
+    padding-bottom: 70px;
+}
+.buy__btn .main__button{
+    position: relative;
+}
+.buy__btn .main__button img{
+    position: absolute;
+    top: 3px;
+    left: 15px;
+}
+.price__arrow svg{
+    position: absolute;
+    bottom: 3px;
+    left: 23%;
 }

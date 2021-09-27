@@ -62,4 +62,20 @@ window.addEventListener('DOMContentLoaded', ()=>{
         header__navLogo.style.opacity = '0';
     })
 
+
+    // Прод смена картинок
+
+    const prod__pic = document.querySelectorAll('.prod__pic img');
+
+    prod__pic.forEach(item =>{
+        let lastSrc = item.src;
+        item.addEventListener('mouseenter', ()=>{
+            
+            item.src = item.dataset.alt;
+        })
+        item.addEventListener('mouseout', ()=>{
+            item.src = lastSrc;
+
+        })
+    })
 })

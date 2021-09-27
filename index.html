@@ -189,7 +189,7 @@
                     </div>
                 </div>
                 <div class="about__pic">
-                    <img src="./source/about/pic.png" alt="Картинка">
+                    <img src="./source/about/pic2.png" alt="Картинка">
                 </div>
             </div>
         </section>
@@ -453,7 +453,7 @@
                 <div class="prod__content">
                     <div class="prod__block">
                         <div class="prod__pic" style="background: #FCC590;">
-                            <img src="./source/prod/med1.png" alt="">
+                            <img data-alt="./source/prod/prod1.png" src="./source/prod/med1.png" alt="">
                         </div>
                         <h3>Весовой мёд ГОСТ 19792-2017</h3>
                         <div class="prod__desc">
@@ -464,7 +464,7 @@
 
                     <div class="prod__block">
                         <div class="prod__pic" style="background: #FF9BAF;">
-                            <img src="./source/prod/med2.png" alt="">
+                            <img data-alt="./source/prod/prod2.png" src="./source/prod/med3.png" alt="">
                         </div>
                         <h3>Медовые композиции</h3>
                         <div class="prod__desc">
@@ -475,7 +475,7 @@
 
                     <div class="prod__block">
                         <div class="prod__pic" style="background: #F5E7AE;">
-                            <img src="./source/prod/med3.png" alt="">
+                            <img data-alt="./source/prod/prod3.png" src="./source/prod/med2.png" alt="">
                         </div>
                         <h3>Крем-мёд</h3>
                         <div class="prod__desc">
@@ -487,7 +487,7 @@
                 <img src="./source/prod/bg.png" class="prod__bg" alt="">
             </div>
         </section>
-        <!--  <section class="price" id="price">
+        <section class="price" id="price">
             <div class="price__top">
                 <div class="container">
                     <div class="price__topBtn">
@@ -502,6 +502,12 @@
                                 <input type="text" placeholder="Ваш E-mail" required>
                                 <button class="main__button">Подписаться</button>
                             </form>
+                        </div>
+                        <div class="price__arrow">
+                            <svg width="184" height="72" viewBox="0 0 184 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M161.171 34.9865C119.5 67.4998 61.0001 70.513 1.00006 43.9998" stroke="#C9CCDA"/>
+                                <path d="M146.159 32.455C151.624 31.8591 164.341 29.1549 171.489 23.1057C178.636 17.0565 163.698 43.3918 155.335 57.3156" stroke="#C9CCDA"/>
+                            </svg>
                         </div>
                     </div>
                 </div>
@@ -535,12 +541,15 @@
                         </ul>
                     </div>
                     <div class="buy__btn">
-                        <button class="main__button">СВЯЗАТЬСЯ С НАМИ</button>
+                        <button class="main__button">
+                            <img src="./source/buy/bee.png">
+                            СВЯЗАТЬСЯ С НАМИ
+                        </button>
                     </div>
                 </div>
                 <div class="buy__pic">
-                    <img src="./source/buy/pic1.png" alt="">
-                    <img class="buy__picAbs" src="./source/buy/pic2.png" alt="">
+                    <img src="./source/buy/pic3.png" alt="">
+                    <img class="buy__picAbs" src="./source/buy/pic4.png" alt="">
                 </div>
             </div>
             <img class="boy__bg boy__bg1" src="./source/buy/bg1.png" alt="">
@@ -565,78 +574,101 @@
         </section>
 
         <section class="diplom">
-            <div class="container">
-                <h2>Дипломы и награды</h2>
-                <div class="diplom__sliderWrap">
-                    <div class="diplom__slider">
-                    <div class="diplom__sliderTrack">
-                        <div class="diplom__block">
-                            <img src="./source/diplom/diplom.png" alt="">
+            <div class="diplom__wrap">
+                <div class="container">
+                    <h2>Дипломы и награды</h2>
+                    <div class="diplom__sliderWrap">
+                        <div class="diplom__slider">
+                        <div class="diplom__sliderTrack">
+                            <div class="diplom__block">
+                                <img src="./source/diplom/diplom.png" alt="">
+                            </div>
+                            <div class="diplom__block">
+                                <img src="./source/diplom/diplom.png" alt="">
+                            </div>
+                            <div class="diplom__block">
+                                <img src="./source/diplom/diplom.png" alt="">
+                            </div>
+                            <div class="diplom__block">
+                                <img src="./source/diplom/diplom.png" alt="">
+                            </div>
+                            <div class="diplom__block">
+                                <img src="./source/diplom/diplom.png" alt="">
+                            </div>
+                            <div class="diplom__block">
+                                <img src="./source/diplom/diplom.png" alt="">
+                            </div>
+                            <div class="diplom__block">
+                                <img src="./source/diplom/diplom.png" alt="">
+                            </div>
+                            <div class="diplom__block">
+                                <img src="./source/diplom/diplom.png" alt="">
+                            </div>
                         </div>
-                        <div class="diplom__block">
-                            <img src="./source/diplom/diplom.png" alt="">
+                        
                         </div>
-                        <div class="diplom__block">
-                            <img src="./source/diplom/diplom.png" alt="">
+                        <div class="diplom__sliderControl diplom__sliderControlLeft">
+                            <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g filter="url(#filter0_d)">
+                                <path d="M9.41 13.59L4.83 9L9.41 4.41L8 3L2 9L8 15L9.41 13.59Z" fill="white"/>
+                                </g>
+                                <defs>
+                                <filter id="filter0_d" x="0.589557" y="0.884335" width="10.2309" height="14.8209" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                <feOffset dy="-0.705222"/>
+                                <feGaussianBlur stdDeviation="0.705222"/>
+                                <feColorMatrix type="matrix" values="0 0 0 0 0.895833 0 0 0 0 0.35914 0 0 0 0 0.26875 0 0 0 1 0"/>
+                                <feBlend mode="multiply" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                                </filter>
+                                </defs>
+                            </svg>
                         </div>
-                        <div class="diplom__block">
-                            <img src="./source/diplom/diplom.png" alt="">
+                        <div class="diplom__sliderControl diplom__sliderControlRight">
+                            <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g filter="url(#filter0_d)">
+                                    <path d="M1.59 4.41L6.17 9L1.59 13.59L3 15L9 9L3 3L1.59 4.41Z" fill="white"/>
+                                </g>
+                                <defs>
+                                <filter id="filter0_d" x="0.179584" y="0.884335" width="10.2309" height="14.8209" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                <feOffset dy="-0.705222"/>
+                                <feGaussianBlur stdDeviation="0.705222"/>
+                                <feColorMatrix type="matrix" values="0 0 0 0 0.895833 0 0 0 0 0.35914 0 0 0 0 0.26875 0 0 0 1 0"/>
+                                <feBlend mode="multiply" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                                </filter>
+                                </defs>
+                            </svg>
                         </div>
-                        <div class="diplom__block">
-                            <img src="./source/diplom/diplom.png" alt="">
-                        </div>
-                        <div class="diplom__block">
-                            <img src="./source/diplom/diplom.png" alt="">
-                        </div>
-                        <div class="diplom__block">
-                            <img src="./source/diplom/diplom.png" alt="">
-                        </div>
-                        <div class="diplom__block">
-                            <img src="./source/diplom/diplom.png" alt="">
-                        </div>
-                    </div>
-                    
-                    </div>
-                    <div class="diplom__sliderControl diplom__sliderControlLeft">
-                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g filter="url(#filter0_d)">
-                            <path d="M9.41 13.59L4.83 9L9.41 4.41L8 3L2 9L8 15L9.41 13.59Z" fill="white"/>
-                            </g>
-                            <defs>
-                            <filter id="filter0_d" x="0.589557" y="0.884335" width="10.2309" height="14.8209" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-                            <feOffset dy="-0.705222"/>
-                            <feGaussianBlur stdDeviation="0.705222"/>
-                            <feColorMatrix type="matrix" values="0 0 0 0 0.895833 0 0 0 0 0.35914 0 0 0 0 0.26875 0 0 0 1 0"/>
-                            <feBlend mode="multiply" in2="BackgroundImageFix" result="effect1_dropShadow"/>
-                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
-                            </filter>
-                            </defs>
-                        </svg>
-                    </div>
-                    <div class="diplom__sliderControl diplom__sliderControlRight">
-                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g filter="url(#filter0_d)">
-                                <path d="M1.59 4.41L6.17 9L1.59 13.59L3 15L9 9L3 3L1.59 4.41Z" fill="white"/>
-                            </g>
-                            <defs>
-                            <filter id="filter0_d" x="0.179584" y="0.884335" width="10.2309" height="14.8209" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-                            <feOffset dy="-0.705222"/>
-                            <feGaussianBlur stdDeviation="0.705222"/>
-                            <feColorMatrix type="matrix" values="0 0 0 0 0.895833 0 0 0 0 0.35914 0 0 0 0 0.26875 0 0 0 1 0"/>
-                            <feBlend mode="multiply" in2="BackgroundImageFix" result="effect1_dropShadow"/>
-                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
-                            </filter>
-                            </defs>
-                        </svg>
                     </div>
                 </div>
             </div>
         </section>
         <section class="contacts" id="contacts">
+            <div class="contacts__wrap">
+                <div class="container">
+                    <div class="price__topContent">
+                        <div class="price__topTxt">
+                            <h3>Будте в курсе последних измений цен, подпишитесь на рассылку</h3>
+                        </div>
+                        <div class="price__topForm">
+                            <form action="">
+                                <input type="text" placeholder="Ваш E-mail" required>
+                                <button class="main__button">Подписаться</button>
+                            </form>
+                        </div>
+                        <div class="price__arrow">
+                            <svg width="184" height="72" viewBox="0 0 184 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M161.171 34.9865C119.5 67.4998 61.0001 70.513 1.00006 43.9998" stroke="#C9CCDA"/>
+                                <path d="M146.159 32.455C151.624 31.8591 164.341 29.1549 171.489 23.1057C178.636 17.0565 163.698 43.3918 155.335 57.3156" stroke="#C9CCDA"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="container">
                 <div class="contacts__top">
                     <h2>Контакты</h2>
@@ -702,7 +734,7 @@
                 <a class="footer__creator" href="#">Сайт сделан на <span style="color:red;">Zavod<span></a>
             </div>
         </div>
-    </footer> -->
+    </footer>
     <script src='./js/script.js'></script>
     <script src='./js/mousemove.js'></script>
     <script src='./js/slider.js'></script>

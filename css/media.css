@@ -19,6 +19,13 @@
         right: 430px;
         
     }
+    .buy__pic{
+        max-width: 550px;
+        width: 100%;
+    }
+    .buy__picAbs{
+        right: 0;
+    }
 }
 @media screen and (max-width: 1320px){
     .firstscreen__medMed{
@@ -45,8 +52,36 @@
         height: 320px;
         margin-left: 20px;
     }
+    .prod__block{
+        max-width: 350px;
+    }
+    .price__topBtn button {
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+   .buy__pic{
+       transform: scale(0.9,0.9);
+   }
+   .partners__content {
+    padding-left: 0px;
+   }
+   .partners h2 {
+    margin-left: 0px;
+}
+.partners__desc p{
+    margin-left: 0;
+}
+.diplom__block{
+    height: 385px;
+}
+.price__arrow{
+    display: none;
+}
 }
 @media screen and (max-width: 1200px){
+    .buy__pic{
+        transform: scale(0.8,0.8);
+    }
     .firstscreen__medMed{
         right: -50px;
         
@@ -73,8 +108,97 @@
     .firstscreen__info{
         max-width: 450px;
     }
+    .prod__block{
+        max-width: 325px;
+    }
+    .prod__block img{
+        height: 230px;
+    }
+    .prod__pic {
+        height: 260px;
+    }
+    .price__topContent{
+        max-width: 750px;
+        padding: 0 15px 0 22px;
+    }
+    .price__topBtn button {
+        padding-left: 62px;
+        padding-right: 62px;
+    }
+    .price__content img{
+        width: 330px;
+    }
+    .partners__content{
+        display: block;
+        text-align: center;
+        clear: both;
+        
+    }
+    .partners__content img{
+        float: left;
+    }
+    .diplom__block{
+        height: 375px;
+    }
+    .footer__nav{
+        display: none;
+    }
+    .footer__top .container{
+        justify-content: space-around;
+    }
+    .footer__botom .container {
+        padding-left: 20px;
+    }
+    .footer__botom .container{
+        justify-content: space-around;
+    }
+    .footer__botom {
+        padding-top: 15px;
+        padding-bottom: 25px;
+    }
+}
+@media screen and (max-width: 1150px){
+    .diplom__block{
+        height: 345px;
+    }
 }
 @media screen and (max-width: 1080px){
+    .diplom__block{
+        height: 320px;
+    }
+    .diplom__wrap{
+        padding: 0 40px;
+    }
+    .price__content img{
+        width: 290px;
+    }
+    .price__topContent{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .price__topTxt {
+        max-width: 370px;
+        margin-bottom: 20px;
+    }
+    .price__topContent{
+        height: 240px;
+    }
+    .price__topContent {
+        max-width: 550px;
+    }
+    .price__top .container{
+        justify-content: space-around;
+    }
+    .prod__block{
+        max-width: 305px;
+    }
+    .prod__block img{
+        height: 215px;
+    }
+    .prod__pic {
+        height: 250px;
+    }
     .header__mobmenu{
         display: block;
     }
@@ -151,9 +275,37 @@
     .about__pic img{
         height: 300px;
     }
+    .buy__pic{
+        display: none;
+    }
+    .buy .container{
+        justify-content: center;
+    }
+  
     
 }
 @media screen and (max-width: 1000px){
+    .diplom__block{
+        height: 300px;
+    }
+    .price__content img{
+        width: 280px;
+    }
+    .price__topContent {
+        max-width: 450px;
+    }
+    .prod__block{
+        max-width: 285px;
+    }
+    .prod__block img{
+        height: 200px;
+    }
+    .prod__pic {
+        height: 230px;
+    }
+    .prod__block h3 {
+        margin-top: 90px;
+    }
     .firstscreen__med{
         opacity: 0.2;
     }
@@ -179,6 +331,35 @@
     }
 }
 @media screen and (max-width: 950px){
+    .diplom__block{
+        height: 275px;
+    }
+    .prod__content{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap: 70px;
+        grid-column-gap: 20px
+    }
+    .price__content{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 20px
+    }
+    .price__content img {
+        width: 100%;
+    }
+    .prod__block{
+        max-width: 585px;
+    }
+    .prod__block img{
+        height: 250px;
+    }
+    .prod__pic {
+        height: 270px;
+    }
+    .prod__block h3 {
+        margin-top: 90px;
+    }
     .about .container{
         flex-direction: column;
     }
@@ -194,7 +375,28 @@
         max-width: 1000px;
     }
 }
+@media screen and (max-width: 900px){
+    .diplom__block{
+        height: 255px;
+    }
+}
+@media screen and (max-width: 870px){
+    .diplom__block{
+        height: 335px;
+    }
+}
+@media screen and (max-width: 850px){
+    .diplom__block{
+        height: 325px;
+    }
+}
 @media screen and (max-width: 800px){
+    .diplom__block{
+        height: 315px;
+    }
+    .buy{
+        overflow: hidden;
+    }
     h1 {
         font-size: 54px;
         line-height: 60px;
@@ -216,8 +418,59 @@
     .perks .container{
         grid-row-gap: 60px;
     }
+    .prod__block img{
+        height: 220px;
+    }
+    .prod__pic{
+        height: 250px;
+    }
+    .price__topBtn button {
+        padding-left: 52px;
+        padding-right: 52px;
+    }
+    .price__topForm .main__button {
+        padding: 14px 35px;
+    }
+    .price__topForm input{
+        width: 215px;
+    }
+    .price__topTxt {
+        max-width: 310px;
+    }
+    .price__topTxt h3 {
+        font-size: 18px;
+        line-height: 29px;
+    }
+    .price__top .container{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .price__topBtn {
+        padding-bottom: 40px;
+    }
+    .price__topBtn button {
+        padding-left: 112px;
+        padding-right: 112px;
+    }
+}
+@media screen and (max-width: 770px){
+    .diplom__block{
+        height: 295px;
+    }
+}
+@media screen and (max-width: 750px){
+    .diplom__block{
+        height: 285px;
+    }
 }
 @media screen and (max-width: 720px){
+    .diplom__block{
+        height: 265px;
+    }
+    .diplom__wrap {
+        padding: 0 35px;
+    }
     .perks .container {
         grid-template-columns: repeat(1,1fr);
     }
@@ -226,8 +479,67 @@
         height: min-content;
         padding-bottom: 8px;
     }
+    .price__top .container {
+        padding-top: 165px;
+    }
+    h2{
+        font-size: 45px;
+    }
+    .contacts__desc {
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .contacts__block:last-child{
+        max-width: unset;
+        padding-left: 0px;
+        margin-top: 35px;
+    }
+    .contacts__desc {
+        padding-bottom: 70px;
+    }
+    .contacts__map{
+        height: 485px;
+    }
+    .contacts__block a {
+        padding-left: 0px;
+    }
+}
+@media screen and (max-width: 660px){
+    .diplom__block{
+        height: 245px;
+    }
+}
+@media screen and (max-width: 650px){
+    .diplom__block{
+        height: 225px;
+    }
+    .prod__content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .prod__block img {
+        height: 255px;
+    }
+    .prod__pic{
+        height: 285px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    .contacts__map{
+        height: 435px;
+    }
 }
 @media screen and (max-width: 580px){
+    .footer__phone{
+        display: none;
+    }
+    .diplom__block{
+        height: 200px;
+    }
+    .partners {
+        padding-top: 100px;
+    }
     h1 {
         font-size: 45px;
         line-height: 55px;
@@ -257,8 +569,35 @@
         font-size: 14px;
         line-height: 24px;
     }
+    .price__topBtn button {
+        padding-left: 82px;
+        padding-right: 82px;
+    }
+    .price__top .container {
+        padding-top: 145px;
+    }
+    .price__content{
+        grid-template-columns: repeat(1,1fr);
+      
+    }
+    
 }
 @media screen and (max-width: 520px){
+    .diplom__block{
+        height: 300px;
+    }
+    .diplom__sliderControl{
+        transform: scale(0.9,0.9);
+    }
+    .diplom__sliderControlLeft{
+        left: -37px;
+    }
+    .diplom__sliderControlRight{
+        right: -37px;
+    }
+    .diplom__wrap {
+        padding: 0 33px;
+    }
     .firstscreen__info{
         display: none;
     }
@@ -296,8 +635,58 @@
     .firstscreen__button {
         padding-top: 35px;
     }
+    .prod__block img {
+        height: 245px;
+    }
+    .prod__pic{
+        height: 255px;
+    }
+   
+}
+@media screen and (max-width: 490px){
+    .diplom__block{
+        height: 270px;
+    }
+    .footer__botom .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__creator{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 455px){
+    .diplom__block{
+        height: 245px;
+    }
+    .contacts__map{
+        height: 400px;
+    }
 }
 @media screen and (max-width: 440px){
+    .diplom__block{
+        height: 230px;
+    }
+    .price__top .container {
+        padding-top: 105px;
+    }
+    
+    .price__topBtn button {
+        padding-left: 72px;
+        padding-right: 72px;
+    }
+    .price__topForm input {
+        width: 190px;
+    }
+    .price__topForm .main__button {
+        font-size: 14px;
+    }
+    .prod__block img {
+        height: 225px;
+    }
+    .prod__pic{
+        height: 255px;
+    }
     .firstscreen__medMed{
         right: -40px;
         width: 400px;
@@ -326,7 +715,43 @@
     }
   
 }
+@media screen and (max-width: 420px){
+    .diplom__block{
+        height: 215px;
+    }
+}
+@media screen and (max-width: 400px){
+    .diplom__block{
+        height: 190px;
+    }
+    .diplom__sliderControl {
+        transform: scale(0.8,0.8);
+    }
+    .contacts__map{
+        height: 330px;
+    }
+}
 @media screen and (max-width: 380px){
+    .diplom__block{
+        height: 180px;
+    }
+    .price__topForm .main__button {
+        font-size: 12px;
+    }
+    .price__topForm .main__button {
+        padding: 11px 30px;
+    }
+    .price__topTxt h3 {
+        font-size: 15px;
+        text-align: center;
+    }
+    .price__topBtn button {
+        padding-left: 65px;
+        padding-right: 65px;
+    }
+    .price__topTxt {
+        max-width: 280px;
+    }
     h1 {
         font-size: 27px;
         line-height: 35px;
@@ -360,5 +785,27 @@
     }
     .firstscreen__button {
         padding-top: 25px;
+    }
+    .price__topForm input {
+        width: 180px;
+    }
+    .price__topForm .main__button {
+        font-size: 10px;
+    }
+    h2{
+        font-size: 34px;
+    }
+    .partners__content img {
+        float: none;
+    }
+}
+@media screen and (max-width: 380px){
+    .diplom__block{
+        height: 160px;
+    }
+}
+@media screen and (max-width: 325px){
+    .diplom__block{
+        height: 155px;
     }
 }

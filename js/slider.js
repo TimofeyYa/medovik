@@ -7,7 +7,22 @@ window.addEventListener('DOMContentLoaded', ()=>{
 
 
     let colums = 4;
+    if (window.screen.width <= 870){
+        colums = 3;
+    }
+    if (window.screen.width <= 520){
+        colums = 2;
+    }
     let margin = 33;
+    if (window.screen.width < 1275){
+        margin = 25;
+    }
+    if (window.screen.width < 980){
+        margin = 20;
+    }
+    if (window.screen.width < 600){
+        margin = 15;
+    }
     let blockWidth = (diplom__slider.offsetWidth - margin * (colums - 1)) / colums;
 
     console.log(diplom__slider.offsetWidth);
